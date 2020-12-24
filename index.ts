@@ -1,9 +1,6 @@
-var tdElements = document.getElementsByTagName('TD');
+import "./style.css";
+import "./extra.css";
+import { basicVar } from "./basic";
+import { extraVar } from "./extra";
 
-for(var tdElement of tdElements) {
-  tdElement. addEventListener('click', handleClick);
-}
-
-function handleClick() {
-  alert('hello');
-}
+console.log(basicVar + extraVar);
